@@ -9,13 +9,12 @@ using namespace std;
     3. 运行时输出(使用boost库 boost::typeindex::type_id_with_cvr)
 */
 
-int main()
-{
-    const int ans = 10;
-    auto x = ans;  // int
-    auto y = &ans; // const int *
+int main() {
+  const int ans = 10;
+  auto x = ans;   // int
+  auto y = &ans;  // const int *
 
-    cout << typeid(x).name() << endl;
-    cout << typeid(y).name() << endl;
-    return 0;
+  cout << typeid(x).name() << endl;
+  cout << typeid(y).name() << endl;
+  return 0;
 }

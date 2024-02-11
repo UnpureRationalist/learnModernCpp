@@ -1,10 +1,8 @@
 #pragma once
 
-class Gadget
-{
-private:
-    int data;
-    
-public:
+class Gadget {
+ private:
+  int data;
 
+ public:
 };

@@ -12,8 +12,4 @@ using namespace std;
     在运行期， move 和 forward 都不会做任何操作.
 */
 
-int main()
-{
-    
-    return 0;
-}
+int main() { return 0; }
